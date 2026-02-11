@@ -1,0 +1,33 @@
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.sw?
+.idea/
+.vscode/
+
+# === Env / secrets ===
+.env
+.env.*
+!.env.example
+
+# === Node / JS builds ===
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.next/
+**/coverage/
+**/*.log
+
+# === NestJS ===
+backend/.nest/
+backend/dist/
+
+# === Vite/React ===
+frontend/app/dist/
+
+# === Storage local (uploads) ===
+storage/
+
+# === Docker ===
+*.pid
+
